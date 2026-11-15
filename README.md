@@ -1,23 +1,40 @@
-# Linkout Branding Assets
+<p align="center">
+  <a href="https://github.com/linkoutapp/brand" aria-label="Linkout brand assets">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg">
+      <img src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg" alt="Linkout" width="128">
+    </picture>
+  </a>
+</p>
 
-Project brand assets and guidelines for Linkout.
+# Linkout brand assets
 
-## Logos and wordmark
+SVG artwork used in Linkout repositories and documentation.
 
-| Name                |                                                                          SVG                                                                           |
-| :------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Scraper             |        <a href="scraper-dark.svg"><img src="https://github.com/linkoutapp/brand/blob/main/scraper-dark.svg" alt="Symbol (SVG)" width="160"></a>        |
-| Scraper Transparent | <a href="scraper-transparent.svg"><img src="https://github.com/linkoutapp/brand/blob/main/scraper-transparent.svg" alt="Symbol (SVG)" width="160"></a> |
+## Assets
 
-# Icons
+| Asset | Files |
+| --- | --- |
+| Scraper mark | [Dark-background version](scraper-dark.svg) · [Transparent version](scraper-transparent.svg) |
+| Logo | [Dark-background version](logo-dark.svg) · [Light-background version](logo-light.svg) |
+| Slack artwork | [SVG](slack.svg) |
 
-Linkout uses icons from two different icon sets:
+The scraper mark appears at the top of this README. Use the theme-aware markup below in GitHub READMEs so it remains visible in light and dark mode.
 
-- [Material Icons](https://mui.com/material-ui/material-icons/)
-- [Tabler Icons](https://tablericons.com/)
+## README example
 
-## AppSumo setup session
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-dark.svg">
+  <img alt="Linkout" width="128"
+    src="https://raw.githubusercontent.com/linkoutapp/brand/main/scraper-transparent.svg">
+</picture>
+```
 
-Linkout’s $29 offer includes one 30-minute session with Sai to set up `linkout-scraper` on your Mac. The code is free under the MIT license. The deal is in AppSumo review and is not available to buy yet.
+Keep the artwork's proportions and provide descriptive alternative text. Existing READMEs depend on these file names; preserve those paths when updating an asset.
 
-[AppSumo deal status](https://www.linkout.space/appsumo.html)
+## License
+
+See [LICENSE](LICENSE).
